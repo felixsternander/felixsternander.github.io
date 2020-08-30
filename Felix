@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Felix Sternanders hemsida</title>
+<style>
+body { 
+background-color: steelblue;
+}
+h1 { text-align: center }
+p { text-align: center }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+</style>
+</head>
+<body>
+
+<h1> TJENA</h1>
+<p> FELIX HETER JAG</p>
+<a href="https://store.steampowered.com/app/252490/Rust/"><img src="https://i.pinimg.com/originals/94/64/6a/94646abece675be28d75439327f4f5ec.png"></a>
+
+</body>
+</html>
