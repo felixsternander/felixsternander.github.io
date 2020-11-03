@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+
+h7 {
+font-size: 40px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Values</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">News</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Clients</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Partners</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Link</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+
+            <h7>Instuderingsfrågor</h7>
+
+      <h1 class="w3-text-teal">Vilka organisationer lade grunden för Internet?</h1>
+      <p>År 1969 läggs grunden för internet då "Arpanet" skapas av det amerikanska försvaret. Den 29:e Oktober 1969 skickar man det första medelandet via Arpanet som vi idag kallar för Internet. Syftet var att uttnytja landets datorkapacitet till försvarsforskning under kalla kriget.  </p>
+    </div>
+   
+  </div>
+
+  <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Vad är HTTP?</h1>
+          <p>HTTP betyder "Hypertext Transfer Protocol" och tillåter en server att svara med mer data än vad användaren har begärt, om den förutspår att datan kommer behövas senare (exempelvis bilder). Syftet med HTTP var från första början att tillhandahålla en metod för att överföra HTML-sidor från webbservrar till webbklienter. </p>
+        </div>
+  
+
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Vad är TCP?</h1>
+      <p>TCP (Transmission Control Protocol) är en uppsättning instruktioner som tillåter datorer att komunicera med varandra. I TCP finns funktioner som ser till att data som skickas mellan datorerna kommer fram och inte blir förstörd påvägen.  På IP-nivån kan detta åstadkommas genom att paketen som skickas måste kvitteras. Precis på samma sätt som jag kan veta säkert att ett brev kommit fram om jag ber mottagaren bekräfta det.  </p>
+    </div>
+   
+  </div>
+
+  <div class="w3-row w3-padding-64">
+        <div class="w3-twothird w3-container">
+          <h1 class="w3-text-teal">Vad är IP?</h1>
+          <p>IP (Internet Protocol) är det protokoll som ser till att data kommer från en nod till en annan. IP är vad man brukar kalla för ett connectionless protokoll. Det innebär att det inte finns en koppling mellan sändare och mottagare utan paketen skickas ut i nätet och kommer fram om det kommer fram. Man kan jämföra det med att skicka ett brev med posten. Man skriver det och skickar iväg. Det finns ingen direkt förbindelse mellan sändare och mottagare. Kommer brevet fram så gör det, annars inte. Vill man veta att brevet verkligen har kommit fram måste man be mottagaren bekräfta detta vilket görs i en del av protokollen ovanför IP i OSI-modellen. IP hittas i nätverksnivån i OSI-modellen. </p>
+        </div>
+       
+      </div>
+
+      <div class="w3-row w3-padding-64">
+            <div class="w3-twothird w3-container">
+              <h1 class="w3-text-teal">Vad är DNS?</h1>
+              <p>DNS (Domännamnssystemet) är en databas som bygger på hierarki. Detta innebär att information lagras i en trädstruktur, som gör det lättare och snabbare att hitta den information som man är intresserad av.  </p>
+            </div>
+           
+          </div>
+
+          <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                  <h1 class="w3-text-teal">Vad är FTP?</h1>
+                  <p>FTP står för File Transfer Protocol. Precis som namnet antyder används FTP för att överföra filer i ett nätverk. FTP bygger på en FTP-klient och en FTP-server som komunicerar med varandra via ett gränssnitt. Att ansluta till en FTP-server kräver ofta användarnamn och lösenord, det finns dock även en så kallad "anonym FTP" som är lämpligt för en offentlig filserver. </p>
+                </div>
+               
+              </div>
+
+              <div class="w3-row w3-padding-64">
+                    <div class="w3-twothird w3-container">
+                      <h1 class="w3-text-teal">Diskutera varför det är viktigt att utgå från gällande standard av HTML.</h1>
+                      <p><ul>
+
+                      <li>Valdidering kan användas som ett verktyg för felsökning.</li>
+                      <li>Validering är en kvalitetskontroll som hjälper till att framtidssäkra webbsidor.</li>
+                      <li>Validering underlättar underhåll av webbsidor.</li>
+                        <li>Validering hjälper till vid inlärning.</li>
+                          <li>Validering är ett tecken på professionalitet.</li>
+                      </ul>
+                    </p>
+                    </div>
+                   
+                  </div>
+                  <div class="w3-row w3-padding-64">
+                    <div class="w3-twothird w3-container">
+                      <h1 class="w3-text-teal">1960-1970 tal</h1>
+                      <p>FTP står för File Transfer Protocol. Precis som namnet antyder används FTP för att överföra filer i ett nätverk. FTP bygger på en FTP-klient och en FTP-server som komunicerar med varandra via ett gränssnitt. Att ansluta till en FTP-server kräver ofta användarnamn och lösenord, det finns dock även en så kallad "anonym FTP" som är lämpligt för en offentlig filserver. </p>
+                    </div>
+                   
+                  </div>
+
+                 
+         <div class="w3-row w3-padding-64">
+  <div class="w3-twothird w3-container">
+
+    <p></p>
+  </div>
+ 
+</div>
+    
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
