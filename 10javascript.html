@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>10 olika funktioner i Javascript</h2>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Klicka här för att visa datum och tid</button>
+<p id="demo"></p>
+
+<p id="demo2">Vad heter skaparen av denna sida?</p>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "Felix"'>Klicka här för att ändra texten till något annat</button>
+<p id="demo2"></p>
+
+<p id="demo3">Javascript kan ändra utseendet på html text.</p>
+<button type="button" onclick="document.getElementById('demo3').style.fontSize='35px'">Klicka här för att ändra storleken på texten</button>
+ <br>
+
+<p id="demo4">Klicka nedan för att gömma denna text.</p>
+<button type="button" onclick="document.getElementById('demo4').style.display='none'">Klicka här</button>
+
+<p>Klicka nedan för att skriva ut denna sida.</p>
+<button onclick="window.print()">Skriv ut</button>
+<br>
+<br>
+
+<button onclick="document.getElementById('myImage').src='https://novasell.se/wp-content/uploads/sol-i-glas%C3%B6gon-pixabay-1-580x580.png'">Sol</button>
+<img id="myImage" src="https://novasell.se/wp-content/uploads/sol-i-glas%C3%B6gon-pixabay-1-580x580.png" style="width:100px">
+<button onclick="document.getElementById('myImage').src='https://roligainredningar.se/images/normal/moon_phase_light.gif'">Måne</button>
+    
+
+
+</body>
+</html> 
