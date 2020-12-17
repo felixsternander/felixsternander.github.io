@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+<title>Gissa talet 1-20</title>
+</head>
+<body>
+<style>
+    body {
+background-color: lightskyblue;
+    }
+</style>
+<script language="JavaScript">
+var number = Math.floor(1+Math.random()*20);
+    
+function guess() {
+var g;
+g = parseInt(document.gissa.gissning.value);
+if (g == number) {
+ window.alert("Det var rätt!");
+document.gissa.resultat.value = "";
+number = Math.floor(1+Math.random()*20);
+} else {
+if (document.gissa.gissning.value < number) {
+window.alert("För litet!");
+} else {
+window.alert("För stort!");
+}
+}
+}
+    
+</script>
+    
+<h1>Lista ut rätt tal mellan 1-20!</h1>
+<form name="gissa">
+<input name="gissning" type="text">
+<input type="button" value="Gissa!" onclick="guess()"><p>
+   
+</form>
+</html> 
+</body>
